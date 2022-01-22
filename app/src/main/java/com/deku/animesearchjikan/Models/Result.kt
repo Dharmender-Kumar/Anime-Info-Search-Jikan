@@ -1,4 +1,4 @@
-package com.deku.animesearchjikan
+package com.deku.animesearchjikan.Models
 
 
 import com.google.gson.annotations.SerializedName

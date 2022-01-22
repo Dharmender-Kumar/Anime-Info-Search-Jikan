@@ -1,11 +1,10 @@
 package com.deku.animesearchjikan.services
 
-import com.deku.animesearchjikan.SearchedAnime
-import com.deku.animesearchjikan.TopAnime
+import com.deku.animesearchjikan.Models.SearchedAnime
+import com.deku.animesearchjikan.Models.TopAnime
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import retrofit2.http.GET
 import retrofit2.http.Query
 

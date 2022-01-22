@@ -1,6 +1,7 @@
-package com.deku.animesearchjikan
+package com.deku.animesearchjikan.Models
 
 
+import com.deku.animesearchjikan.Models.Result
 import com.google.gson.annotations.SerializedName
 
 data class TopAnime(

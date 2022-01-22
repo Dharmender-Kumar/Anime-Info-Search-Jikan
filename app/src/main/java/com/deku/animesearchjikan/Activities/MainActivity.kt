@@ -1,6 +1,5 @@
-package com.deku.animesearchjikan
+package com.deku.animesearchjikan.Activities
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +8,13 @@ import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat.getSystemService
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.deku.animesearchjikan.Classes.AnimeDetailsBottomSheet
+import com.deku.animesearchjikan.Models.Result
+import com.deku.animesearchjikan.Models.SearchedAnime
+import com.deku.animesearchjikan.Models.TopAnime
+import com.deku.animesearchjikan.R
 import com.deku.animesearchjikan.databinding.ActivityMainBinding
 import com.deku.animesearchjikan.services.AnimeService
 import com.squareup.picasso.Picasso
